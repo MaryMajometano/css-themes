@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 59, 101, 108;
+  
+  --border: 201, 210, 216;
+
+  --shadow: 0, 0, 0;
+
+  --text-primary: 255, 255, 255;
+  --text-secondary: 255, 255, 255;
+
+  --text-link: 0, 0, 0;
+  --text-link-hover: 0, 0, 0;
+
+  --controls-text: 0, 0, 0;
+  --controls-text-hover: 0, 0, 0;
+  --controls-bg: 0, 0, 0;
+  --controls-bg-hover: 0, 0, 0;
+
+  --button-primary-text: 255, 255,255;
+  --button-primary-text-hover: 255, 255,255;
+  --button-primary-bg: 247, 143, 0;
+  --button-primary-bg-hover: 237, 123, 0;
+
+  --button-secondary-text: 255, 255,255;
+  --button-secondary-text-hover: 255, 255,255;
+  --button-secondary-bg: 59, 101, 108;
+  --button-secondary-bg-hover: 45, 76, 82;
+}
+
+.theme-s {
+  --background: 248, 244, 241;
+  
+  --border: 160, 190, 199;
+
+  --shadow: 0, 0, 0;
+
+  --text-primary: 0, 90, 119;
+  --text-secondary: 255, 255, 255;
+
+  --text-link: 0, 90, 119;
+  --text-link-hover: 0, 90, 119;
+
+  --controls-text: 0, 0, 0;
+  --controls-text-hover: 0, 0, 0;
+  --controls-bg: 0, 0, 0;
+  --controls-bg-hover: 0, 0, 0;
+
+  --button-primary-text: 255, 255, 255;
+  --button-primary-text-hover: 255, 255, 255;
+  --button-primary-bg: 0, 69, 92;
+  --button-primary-bg-hover: 0, 90, 119;
+
+  --button-secondary-text: 0, 69, 92;
+  --button-secondary-text-hover: 255, 255, 255;
+  --button-secondary-bg: 255, 255, 255;
+  --button-secondary-bg-hover: 0, 69, 92;
+}
+
+.theme-d {
+  --background: 187, 205, 195;
+  
+  --border: 110, 128, 123;
+
+  --shadow: 0, 0, 0;
+
+  --text-primary: 58, 77, 75;
+  --text-secondary: 255, 255, 255;
+
+  --text-link: 58, 77, 75;
+  --text-link-hover: 58, 77, 75;
+
+  --controls-text: 0, 0, 0;
+  --controls-text-hover: 0, 0, 0;
+  --controls-bg: 0, 0, 0;
+  --controls-bg-hover: 0, 0, 0;
+
+  --button-primary-text: 255, 255, 255;
+  --button-primary-text-hover: 255, 255, 255;
+  --button-primary-bg: 40, 53, 52;
+  --button-primary-bg-hover: 58, 77, 75;
+
+  --button-secondary-text: 110, 128, 123;
+  --button-secondary-text-hover: 255, 255, 255;
+  --button-secondary-bg: 238, 242, 240;
+  --button-secondary-bg-hover: 110, 128, 123;
+}
