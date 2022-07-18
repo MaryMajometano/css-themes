@@ -26,19 +26,17 @@ module.exports = {
         currentColor: 'currentColor',
         inherit: 'inherit',
     },
-    borderRadius: {
-      DEFAULT: customRadius('--border-radius'),
-      sm: customRadius('--border-radius-sm'),
-      md: customRadius('--border-radius-md'),
-      lg: customRadius('--border-radius-lg'),
-      xl: customRadius('--border-radius-xl'),
-      full: customRadius('--border-radius-full'),
-    },
-    },
     extend: {
       fontFamily: {
         sans: ['Roboto Condensed', ...defaultTheme.fontFamily.sans],
         serif: ['Roboto Slab', ...defaultTheme.fontFamily.serif],
+      },
+      borderRadius: {
+        skin: variable('--border-radius'),
+        button: variable('--button-border-radius'),
+      },
+      borderWidth: {
+        'skin-width': variable('--border-width'),
       },
       textColor: {
         skin: {
@@ -60,8 +58,8 @@ module.exports = {
         },
       },
       borderColor: {
-        skin: {
-            DEFAULT: customColor('--border'),
+        'skin-color': {
+            DEFAULT: customColor('--border-color'),
         },
       },
     },
