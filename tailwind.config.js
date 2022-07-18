@@ -9,6 +9,10 @@ function customColor(variableName) {
   }
 }
 
+function customRadius(value) {
+  return `var(${value})`;
+}
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -21,7 +25,15 @@ module.exports = {
         currentColor: 'currentColor',
         inherit: 'inherit',
     },
-  extend: {
+    borderRadius: {
+      DEFAULT: customRadius('--border-radius'),
+      sm: customRadius('--border-radius-sm'),
+      md: customRadius('--border-radius-md'),
+      lg: customRadius('--border-radius-lg'),
+      xl: customRadius('--border-radius-xl'),
+      full: customRadius('--border-radius-full'),
+    },
+    extend: {
       fontFamily: {
         sans: ['Roboto Condensed', ...defaultTheme.fontFamily.sans],
         serif: ['Roboto Slab', ...defaultTheme.fontFamily.serif],

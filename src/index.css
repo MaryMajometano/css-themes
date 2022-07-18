@@ -29,6 +29,12 @@
   --button-secondary-text-hover: 255, 255,255;
   --button-secondary-bg: 59, 101, 108;
   --button-secondary-bg-hover: 45, 76, 82;
+
+  --border-radius-none: 0;
+  --border-radius-sm: .125rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: .5rem;
+  --border-radius-full: 9999px;
 }
 
 .theme-s {
@@ -58,6 +64,12 @@
   --button-secondary-text-hover: 255, 255, 255;
   --button-secondary-bg: 255, 255, 255;
   --button-secondary-bg-hover: 0, 69, 92;
+
+  --border-radius-none: 0;
+  --border-radius-sm: 0;
+  --border-radius-md: 0;
+  --border-radius-lg: 0;
+  --border-radius-full: 0;
 }
 
 .theme-d {
@@ -87,4 +99,10 @@
   --button-secondary-text-hover: 255, 255, 255;
   --button-secondary-bg: 238, 242, 240;
   --button-secondary-bg-hover: 110, 128, 123;
+  --border-radius-none: 0;
+  --border-radius-sm: 0;
+  --border-radius-md: 0;
+  --border-radius-lg: 0;
+  --border-radius-full: 9999px;
+
 }
