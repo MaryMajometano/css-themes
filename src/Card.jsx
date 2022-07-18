@@ -1,6 +1,6 @@
 export default function Card({className}) {
     return (
-        <div className={'bg-skin-fill shadow-lg text-skin-primary border-skin w-1/3 py-10 rounded-md ' + className}>
+        <div className={'bg-skin-fill text-skin-primary border-skin w-1/3 py-10 rounded-md ' + className}>
             <h1 className='text-2xl mb-3 px-10 font-serif'>
                 Lorem
             </h1>

@@ -9,13 +9,10 @@ function customColor(variableName) {
   }
 }
 
-function customRadius(value) {
+function variable(value) {
   return `var(${value})`;
 }
 
-function customShadow(values) {
-  return `var(${values})`
-}
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -37,13 +34,6 @@ module.exports = {
       xl: customRadius('--border-radius-xl'),
       full: customRadius('--border-radius-full'),
     },
-    boxShadow: {
-      DEFAULT: customShadow('--shadow-default'),
-      md: customShadow('--shadow-md'),
-      lg: customShadow('--shadow-lg'),
-      inner: customShadow('--shadow-inner'),
-      outline: customShadow('--shadow-outline'),
-      none: 'none',
     },
     extend: {
       fontFamily: {
@@ -73,11 +63,6 @@ module.exports = {
         skin: {
             DEFAULT: customColor('--border'),
         },
-      },
-      boxShadowColor: {
-        skin: {
-          DEFAULT: customColor('--shadow'),
-        }
       },
     },
   },

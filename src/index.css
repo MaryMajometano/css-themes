@@ -7,8 +7,6 @@
   
   --border: 201, 210, 216;
 
-  --shadow: 0, 0, 0;
-
   --text-primary: 255, 255, 255;
   --text-secondary: 255, 255, 255;
 
@@ -36,19 +34,12 @@
   --border-radius-lg: .5rem;
   --border-radius-full: 9999px;
 
-  --shadow-default: none;
-  --shadow-md: none;
-  --shadow-lg: none;
-  --shadow-inner: none;
-  --shadow-outline: none;
 }
 
 .theme-s {
   --background: 248, 244, 241;
   
   --border: 160, 190, 199;
-
-  --shadow: 0, 0, 0;
 
   --text-primary: 0, 90, 119;
   --text-secondary: 255, 255, 255;
@@ -77,20 +68,12 @@
   --border-radius-lg: 0;
   --border-radius-full: 0;
 
-  --shadow-default: 0 2px 4px 0 rgba(0, 0, 0, 0.10);
-  --shadow-md: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-  --shadow-lg: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.2);
-  --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
-  --shadow-outline: 0 0 0 3px rgba(52, 144, 220, 0.5);
-  --shadow-none: none;
 }
 
 .theme-d {
   --background: 187, 205, 195;
   
   --border: 110, 128, 123;
-
-  --shadow: 0, 0, 0;
 
   --text-primary: 58, 77, 75;
   --text-secondary: 255, 255, 255;
@@ -118,9 +101,4 @@
   --border-radius-lg: 0;
   --border-radius-full: 9999px;
 
-  --shadow-default: none;
-  --shadow-md: none;
-  --shadow-lg: none;
-  --shadow-inner: none;
-  --shadow-outline: none;
 }
