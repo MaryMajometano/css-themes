@@ -34,6 +34,7 @@ module.exports = {
       borderRadius: {
         skin: variable('--border-radius'),
         button: variable('--button-border-radius'),
+        controls: variable('--controls-border-radius'),
       },
       borderWidth: {
         'skin-width': variable('--border-width'),
@@ -46,6 +47,8 @@ module.exports = {
           'button-primary-hover': customColor('--button-primary-text-hover'),
           'button-secondary': customColor('--button-secondary-text'),
           'button-secondary-hover': customColor('--button-secondary-text-hover'),
+          'controls-text': customColor('--controls-text'),
+          'controls-text-hover': customColor('--controls-text-hover'),
         },
       },
       backgroundColor: {
@@ -55,6 +58,8 @@ module.exports = {
             'button-primary-hover': customColor('--button-primary-bg-hover'),
             'button-secondary': customColor('--button-secondary-bg'),
             'button-secondary-hover': customColor('--button-secondary-bg-hover'),
+            'controls-bg': customColor('--controls-bg'),
+            'controls-bg-hover': customColor('--controls-bg-hover'),
         },
       },
       borderColor: {

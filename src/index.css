@@ -11,10 +11,11 @@
   --text-link: 0, 0, 0;
   --text-link-hover: 0, 0, 0;
 
-  --controls-text: 0, 0, 0;
-  --controls-text-hover: 0, 0, 0;
-  --controls-bg: 0, 0, 0;
-  --controls-bg-hover: 0, 0, 0;
+  --controls-text: 255, 255, 255;
+  --controls-text-hover: 255, 255, 255;
+  --controls-bg: 247, 143, 0;
+  --controls-bg-hover: 237, 123, 0;
+  --controls-border-radius: 9999px;
 
   --button-primary-text: 255, 255,255;
   --button-primary-text-hover: 255, 255,255;
@@ -45,10 +46,11 @@
   --text-link: 0, 90, 119;
   --text-link-hover: 0, 90, 119;
 
-  --controls-text: 0, 0, 0;
-  --controls-text-hover: 0, 0, 0;
-  --controls-bg: 0, 0, 0;
-  --controls-bg-hover: 0, 0, 0;
+  --controls-text: 255, 255, 255;
+  --controls-text-hover: 255, 255, 255;
+  --controls-bg: 0, 69, 92;
+  --controls-bg-hover: 0, 90, 119;
+  --controls-border-radius: 0;
 
   --button-primary-text: 255, 255, 255;
   --button-primary-text-hover: 255, 255, 255;
@@ -78,10 +80,11 @@
   --text-link: 58, 77, 75;
   --text-link-hover: 58, 77, 75;
 
-  --controls-text: 0, 0, 0;
-  --controls-text-hover: 0, 0, 0;
-  --controls-bg: 0, 0, 0;
-  --controls-bg-hover: 0, 0, 0;
+  --controls-text: 110, 128, 123;
+  --controls-text-hover: 255, 255, 255;
+  --controls-bg: 238, 242, 240;
+  --controls-bg-hover: 110, 128, 123;
+  --controls-border-radius: 10px;
 
   --button-primary-text: 255, 255, 255;
   --button-primary-text-hover: 255, 255, 255;
