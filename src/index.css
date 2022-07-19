@@ -30,9 +30,7 @@
   --button-border-radius: 0;
 
   --border-color: 201, 210, 216;
-
   --border-width: 2px;
-
   --border-radius: 0;
 
 }
@@ -65,9 +63,7 @@
   --button-border-radius: 9999px;
   
   --border-color: 160, 190, 199;
-
   --border-width: 5px;
-
   --border-radius: 10px;
 }
 
@@ -99,8 +95,6 @@
   --button-border-radius: 5px;
   
   --border-color: 110, 128, 123;
-
   --border-width: 1px;
-
   --border-radius: 0px;
 }
