@@ -14,7 +14,7 @@ export default function Card({className}) {
                     alt="lorem"
                 />
                 <div className="absolute flex w-full justify-between px-10">
-                    <span className="w-10 h-10 bg-skin-controls-bg hover:bg-skin-controls-bg-hover text-skin-controls-text hover:text-skin-controls-text-hover cursor-pointer text-4xl rounded-controls p-2 ease-in-out duration-300 rotate-180">
+                    <span className="w-10 h-10 bg-skin-controls-bg hover:bg-skin-controls-bg-hover text-skin-controls-text hover:text-skin-controls-text-hover cursor-pointer text-4xl rounded-controls border-skin-controls border-skin-controls-width p-2 ease-in-out duration-300 rotate-180">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
                             <path 
                                 d="m132.803 85.194-75-74.997a7.5 7.5 0 0 0-10.606 10.607l69.696 69.694-69.697 69.699a7.5 7.5 0 0 0 10.607 10.606l75-75.002a7.498 7.498 0 0 0 0-10.607Z" 
@@ -22,7 +22,7 @@ export default function Card({className}) {
                             />
                         </svg>
                     </span>
-                    <span className="w-10 h-10 bg-skin-controls-bg hover:bg-skin-controls-bg-hover text-skin-controls-text hover:text-skin-controls-text-hover cursor-pointer text-4xl rounded-controls p-2 ease-in-out duration-300">
+                    <span className="w-10 h-10 bg-skin-controls-bg hover:bg-skin-controls-bg-hover text-skin-controls-text hover:text-skin-controls-text-hover cursor-pointer text-4xl rounded-controls border-skin-controls border-skin-controls-width p-2 ease-in-out duration-300">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
                             <path 
                                 d="m132.803 85.194-75-74.997a7.5 7.5 0 0 0-10.606 10.607l69.696 69.694-69.697 69.699a7.5 7.5 0 0 0 10.607 10.606l75-75.002a7.498 7.498 0 0 0 0-10.607Z" 

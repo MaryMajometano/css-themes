@@ -38,6 +38,7 @@ module.exports = {
       },
       borderWidth: {
         'skin-width': variable('--border-width'),
+        'skin-controls-width': variable('--controls-border-width'),
       },
       textColor: {
         skin: {
@@ -63,8 +64,9 @@ module.exports = {
         },
       },
       borderColor: {
-        'skin-color': {
-            DEFAULT: customColor('--border-color'),
+        'skin': {
+            color: customColor('--border-color'),
+            controls: customColor('--controls-border-color'),
         },
       },
     },
