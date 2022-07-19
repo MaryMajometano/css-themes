@@ -23,11 +23,17 @@
   --button-primary-text-hover: 255, 255,255;
   --button-primary-bg: 247, 143, 0;
   --button-primary-bg-hover: 237, 123, 0;
+  --button-primary-border-hover: 0, 0, 0, 0;
+  --button-primary-border: 0, 0, 0, 0;
+  --button-primary-border-width: 0;
 
   --button-secondary-text: 255, 255,255;
   --button-secondary-text-hover: 255, 255,255;
   --button-secondary-bg: 59, 101, 108;
   --button-secondary-bg-hover: 45, 76, 82;
+  --button-secondary-border-hover: 0, 0, 0, 0;
+  --button-secondary-border: 0, 0, 0, 0;
+  --button-secondary-border-width: 1px;
 
   --button-border-radius: 0;
 
@@ -58,11 +64,17 @@
   --button-primary-text-hover: 255, 255, 255;
   --button-primary-bg: 0, 69, 92;
   --button-primary-bg-hover: 0, 90, 119;
+  --button-primary-border-hover: 0, 0, 0, 0;
+  --button-primary-border: 0, 0, 0, 0;
+  --button-primary-border-width: 0;
 
   --button-secondary-text: 0, 69, 92;
   --button-secondary-text-hover: 255, 255, 255;
   --button-secondary-bg: 255, 255, 255;
   --button-secondary-bg-hover: 0, 69, 92;
+  --button-secondary-border-hover: 0, 0, 0, 0;
+  --button-secondary-border: 0, 0, 0, 0;
+  --button-secondary-border-width: 0;
 
   --button-border-radius: 9999px;
   
@@ -92,11 +104,17 @@
   --button-primary-text-hover: 255, 255, 255;
   --button-primary-bg: 40, 53, 52;
   --button-primary-bg-hover: 58, 77, 75;
+  --button-primary-border-hover: 187, 205, 195;
+  --button-primary-border: 187, 205, 195;
+  --button-primary-border-width: 0;
 
   --button-secondary-text: 110, 128, 123;
-  --button-secondary-text-hover: 255, 255, 255;
+  --button-secondary-text-hover: 110, 128, 123;
   --button-secondary-bg: 238, 242, 240;
-  --button-secondary-bg-hover: 110, 128, 123;
+  --button-secondary-bg-hover: 110, 128, 123, 0;
+  --button-secondary-border: 238, 242, 240;
+  --button-secondary-border-hover: 110, 128, 123;
+  --button-secondary-border-width: 1px;
 
   --button-border-radius: 5px;
   

@@ -39,6 +39,8 @@ module.exports = {
       borderWidth: {
         'skin-width': variable('--border-width'),
         'skin-controls-width': variable('--controls-border-width'),
+        'skin-button-primary-width': variable('--button-primary-border-width'),
+        'skin-button-secondary-width': variable('--button-secondary-border-width'),
       },
       textColor: {
         skin: {
@@ -67,6 +69,10 @@ module.exports = {
         'skin': {
             color: customColor('--border-color'),
             controls: customColor('--controls-border-color'),
+            'button-primary': customColor('--button-primary-border'),
+            'button-primary-hover': customColor('--button-primary-border-hover'),
+            'button-secondary': customColor('--button-secondary-border'),
+            'button-secondary-hover': customColor('--button-secondary-border-hover'),
         },
       },
     },

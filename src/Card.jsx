@@ -37,10 +37,10 @@ export default function Card({className}) {
             </p>
             <hr className='my-8 border-skin-color border-b-skin-width border-t-0' />
             <div className='space-x-4 px-10'>
-                <button className="rounded-button px-4 py-2 bg-skin-button-primary hover:bg-skin-button-primary-hover text-skin-button-primary hover:text-skin-button-primary-hover">
+                <button className="rounded-button px-4 py-2 bg-skin-button-primary hover:bg-skin-button-primary-hover text-skin-button-primary hover:text-skin-button-primary-hover border-skin-button-primary hover:border-skin-button-primary-hover border-skin-button-primary-width">
                     Senden
                 </button>
-                <button className="rounded-button text-skin-button-secondary hover:text-skin-button-secondary-hover bg-skin-button-secondary hover:bg-skin-button-secondary-hover px-4 py-2 border-skin">
+                <button className="rounded-button text-skin-button-secondary hover:text-skin-button-secondary-hover bg-skin-button-secondary hover:bg-skin-button-secondary-hover px-4 py-2 border-skin-button-secondary hover:border-skin-button-secondary-hover border-skin-button-secondary-width">
                     Abbrechen
                 </button>
             </div>
