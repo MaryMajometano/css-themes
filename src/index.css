@@ -87,7 +87,7 @@
   --controls-text: 110, 128, 123;
   --controls-text-hover: 255, 255, 255;
   --controls-bg: 238, 242, 240;
-  --controls-bg-hover: 110, 128, 123;
+  --controls-bg-hover: 110, 128, 123, 0;
   --controls-border-color: 0, 0, 0, 0;
   --controls-border-width: 1px;
   --controls-border-radius: 10px;
